@@ -4,16 +4,10 @@ Unofficial extensions for the [Tidewave](https://tidewave.ai/) [`tidewave` gem](
 
 ## Installation
 
-Install the gem and add to the application's Gemfile by executing:
-
-```bash
-$ bundle add tw_extensions
-```
-
-Or add it directly to your Gemfile:
+Add it to your Gemfile:
 
 ```ruby
-gem 'tw_extensions'
+gem 'tw_extensions', github: 'stevegeek/tw_extensions'
 ```
 
 Then execute:
@@ -21,6 +15,8 @@ Then execute:
 ```bash
 $ bundle install
 ```
+
+It's a Rails plugin so it will automatically register itself with the Tidewave when you start your Rails application.
 
 ## Tools
 
